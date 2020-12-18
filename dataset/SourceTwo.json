@@ -1,0 +1,13 @@
+{
+	"name": "SourceTwo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseOne",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

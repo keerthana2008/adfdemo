@@ -1,0 +1,17 @@
+{
+	"name": "OlapDestDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OlapSqlLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "details"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
